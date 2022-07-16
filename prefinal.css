@@ -1,0 +1,267 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: poppins;
+
+}
+body{
+    background: linear-gradient(to bottom right,rgb(112, 112, 196),rgb(106, 190, 223),rgb(240, 166, 178));
+}
+header{
+    width: 100%;
+    height: 100px;
+}
+#menu{
+    position: fixed;
+    right: 50px;
+    top:10px;
+    font-size: 40px;
+    color: white;
+    cursor: pointer;
+    z-index: 2;
+}
+.text{
+    height: 10px;
+    position: absolute;
+    top: 0px;
+    border: 3px solid white;
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin-left: 10px;
+    padding: 5px 10px 25px 10px;
+    width: 90px;
+    opacity: 0;
+}
+.text:hover{
+    opacity: 1;
+}
+#img:hover{
+    opacity: 0.4;
+    
+}
+#sidenav{
+    padding: 100px 0px;
+    position: fixed;
+    width: 0px;
+    height: 100vh;
+    background:rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(3px);
+    box-shadow:insert 10px 10px 10px grey;
+    top:0;
+    right: 0;
+}
+#sidenav ul li{
+    list-style: none;
+}
+#sidenav ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10px 30px;
+    display: block;
+    padding: 10px;
+}
+#sidenav ul li:hover{
+    background: rgba(225, 255, 255, 0.4);
+    transition: 0.4s;
+}
+#ul li:hover{
+    background: rgba(225, 255, 255, 0.4);
+    transition: 0.4s;
+}
+.sub-menu-1{
+    display: none;
+}
+
+
+#c li{
+display: inline;
+color: white;
+}
+#a{
+    background-color:crimson;
+    height: 87px;
+    width:100%;
+}
+#a ul{
+    list-style-type: none;
+}
+img{
+width:87px;
+height: 87px;
+border-radius: 50%;
+}
+#dropdown{
+    margin:0 auto;
+}
+#dropdown{
+    height:60px;
+    background:#2c3e50;
+    box-shadow: 0 12px 15px rgba(0,0,0,0.1);
+}
+#dropdown ul{
+    padding: 0;
+    margin: 0;
+    float: left;
+    
+}
+#dropdown ul li{
+    background: #2c3e50;
+    position: relative;
+    list-style: none;
+    display: inline-block;
+    margin-right: 80px;
+}
+#dropdown ul li a{
+    display: block;
+    padding: 0 15px;
+    color: white;
+    text-decoration: none;
+    line-height: 60px;
+    font-size: 20px;
+}
+#dropdown ul li a:hover{
+    background: rgba(225, 255, 255, 0.4);
+    transition: 0.4s;
+}
+#dropdown ul ul{
+    position: absolute;
+    top:60px;
+    display: none;
+}
+#dropdown ul li:hover > ul{
+    display: block;
+
+
+}
+#dropdown ul ul li{
+    width: 150px;
+    float: none;
+    display: list-item;
+    position: relative;
+
+}
+#dropdown ul ul ul li{
+    position: relative;
+    top:-60px;
+    left: 150px;
+
+}
+
+#footer{
+background-color: brown;
+bottom: 0px;
+width: 100%;
+height: 30px;
+color: white;
+padding: 5px;
+position: fixed;
+display: inline;
+bottom: 0px;
+left: 0px;
+}
+#vc{
+    float: right;
+    margin-top:0;
+}
+
+#first
+{
+    position:absolute;
+    top:147px;
+    background: linear-gradient(to bottom right,rgb(112, 112, 196),rgb(106, 190, 223),rgb(112, 112, 196));
+    height:458px;
+    width: 350px;
+    margin-left:0px ;
+
+
+}
+#login{
+    position:absolute;
+    top:147px;
+    background: linear-gradient(to right,hsl(219, 55%, 73%),hsl(195, 100%, 50%));
+    height:458px;
+    width: 650px;
+    margin-left:350px ;
+}
+
+
+#last{
+    position:absolute;
+    top:147px;
+    right:0px;
+    width:350px;
+    height:460px;
+    border:1px solid red;
+    background: linear-gradient(to bottom right,rgb(112, 112, 196),rgb(106, 190, 223),rgb(240, 166, 178));
+    overflow:auto;
+    z-index: -1;
+}
+.np:before {
+    content: ' \00BB';
+    color:orange;
+}
+.np
+{
+    color:black;
+    font-style:bold;
+    font-size:18px;
+   
+}
+#middle{
+    position: absolute;
+    top:147px;
+    height: 270px;
+    width:650px;
+    margin-left: 350px;
+    z-index: -1;
+}
+
+#new1
+{
+    left:2px;
+    padding:1px 1px;
+    height:460px;
+    color:black;
+}
+#hi{
+    position:relative;
+    left:2px;
+    top:-12px;
+}
+.fi
+{
+    margin-left: 25px;
+    margin-top: 20px;
+    width:300px;
+    height:400px;
+    overflow:auto;
+    background-color:rgb(241, 194, 202);
+    color:black;
+}
+
+#middle{    
+    position:absolute;  
+    top:147px;
+    margin: left 350pxpx;
+    width:650px;
+    height:458px; 
+    z-index: -1;
+} 
+#reg{
+    position: absolute;
+    top:147px;
+    width:100%;
+} 
+#info{
+    margin-left: 500px;
+    margin-top: 150px;
+}
+
+#footernav p{
+    text-align: center;
+    color: aliceblue;
+
+}
